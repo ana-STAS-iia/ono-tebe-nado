@@ -3,8 +3,8 @@
 .header {
     display: grid;
     padding-top: 92px;
-    padding-left: 51px;
-    padding-right: 49px;
+    padding-left: 50px;
+    padding-right: 50px;
     grid-template-columns: 1fr 148px 1fr;
     justify-content: space-between;
     align-items: center;
@@ -18,13 +18,16 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    word-wrap: break-word;
     list-style: circle;
 }
 
 .header__link {
     text-underline-offset: 5px;
     text-decoration-thickness: 1px;
+}
+
+.header__link_active {
+    text-decoration: none;
 }
 
 .header__links-list-item_no-bullit {
@@ -49,7 +52,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24.30px;
-    white-space: nowrap;
 }
 
 .header__address {
@@ -93,7 +95,6 @@
     width: 100%;
     color: white;
     text-transform: uppercase;
-    word-wrap: break-word;
     display: flex;
     font-size: 100px;
     line-height: 100%;
@@ -141,7 +142,6 @@
     font-weight: 400;
     text-transform: uppercase;
     line-height: 28px;
-    word-wrap: break-word;
     word-spacing: 1.125rem;
     
 }
@@ -151,9 +151,7 @@
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
-    word-wrap: break-word;
-    width: 257px;
-    height: 52px;
+    padding: 12px 32px;
     background-color: transparent;
     border: 1px solid white;
     font-family: Raleway, san-serif;
@@ -174,7 +172,6 @@
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    word-wrap: break-word;
 }
 
 .lots__card-list {
@@ -233,7 +230,6 @@
     text-decoration: underline;
     text-transform: uppercase;
     line-height: 26.40px;
-    word-wrap: break-word;
     z-index: 1;
 }
 
@@ -242,7 +238,6 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    word-wrap: break-word;
     z-index: 1;
 }
 
@@ -252,9 +247,7 @@
     text-underline-offset: 5px;
     text-decoration-thickness: 1px;
     font-size: 20px;
-    font-family: Raleway;
     font-weight: 400;
-    word-wrap: break-word;
 }
 
 /*about*/
@@ -297,10 +290,8 @@
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 40px;
-    font-family: Raleway;
     font-weight: 700;
     text-transform: uppercase;
-    word-wrap: break-word;
 }
 
 .about__text-all {
@@ -312,7 +303,6 @@
 .about__text {
     font-size: 20px;
     font-weight: 400;
-    word-wrap: break-word;
 }
 
 /*footer*/
@@ -338,7 +328,6 @@
     list-style-type: none;
     font-size: 18px;
     font-weight: 400;
-    white-space: nowrap;
     justify-self: center;
 }
 
