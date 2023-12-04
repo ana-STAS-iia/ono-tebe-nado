@@ -1,3 +1,2 @@
-# ono-tebe-nado
-Проект "Оно тебе надо"
+# ono-tebe-nado 
 https://github.com/ana-STAS-iia/ono-tebe-nado.git
